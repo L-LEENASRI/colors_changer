@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colour Changer</title>
+    <style>
+        html,body{
+            position: relative;
+            background-color: burlywood;
+        }
+        .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Centers vertically as well */
+}
+
+.centered-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #450049;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.centered-button:hover{
+    transform: scale(1.5);
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: rgb(255, 247, 0);
+}
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button class="centered-button"><a href="python.py">Go Python</a></button>
+    </div>
+</body>
+</html>
